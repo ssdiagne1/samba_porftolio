@@ -72,10 +72,10 @@ section{
 }
 
 .sub-title{
-    font-size: 11px;
-    position: absolute;
     color: var(--secondaryColor);
-    top: 40%;
+    font-size: 11px;
+    position: relative;
+    top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
