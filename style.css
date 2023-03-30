@@ -143,3 +143,13 @@ section{
     margin-bottom: -3px;
 
 }
+
+/*
+    Skill section
+*/
+
+.skill{
+    background: var(--gray);
+    border-radius : 7px;
+    -webkit-border-radius: 7px;
+}
