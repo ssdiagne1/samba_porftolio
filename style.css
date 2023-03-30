@@ -88,12 +88,15 @@ section{
     Hero section
 */
 #hero{
-    background-image: url("images/ai_banner.jpg");
+    background-image: url("images/tech.jpg");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
 }
 
+#hero p{
+    -webkit-text-fill-color: #fff;
+}
 #hero .social a{
     transition:all .4s;
     -webkit-transition: all .4s;
