@@ -6,7 +6,7 @@ var typed = new Typed('.typer', {
 });
 
 let valueNumbers = document.querySelectorAll(".exp-number");
-let interval = 30;
+let interval = 1000;
 
 valueNumbers.forEach((valueNumber)=>{
     let startValue = 0;
