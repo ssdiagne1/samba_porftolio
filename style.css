@@ -224,13 +224,13 @@ section{
 }
 
 form input, textarea{
-    color: var(--textColor);
     background-color: var(--primaryColor)!important;
     border: 3px solid var(--gray)!important;
+    -webkit-text-fill-color: #fff;
 }
 
 .form-control::placeholder{
-    color: rgba(231, 230, 230, 0.4);
+    color: rgba(231, 230, 230, 0.945);
 }
 
 @media screen and (max-width:974px){
