@@ -16,7 +16,7 @@
 <body>
     <!--Header start-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow" id="mainNavBar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top" id="mainNavBar">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" alt="SambaDev_Logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
@@ -31,7 +31,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
+                    <a class="nav-link" href="about">About me</a>
                   </li>
 
                   <li class="nav-item">
@@ -258,6 +258,173 @@
     </section>
 
     <!--SKILLS END-->
+
+    <!--SERVICE START-->
+    <section id="service">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Services</h3>
+                <p class="text-center fw-bold ms-4 ps-3 sub-title">What do I offer?</p>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 service-box text-center mt-3">
+                 <img src="images/webdesign2.jpg" class='img-fluid'alt="web design">
+                    <h3 class="fw-bold mb-2">Web Design & Development</h3>
+                    <p>Web design and development is a comprehensive service that involves creating visually appealing, user-friendly, and responsive websites.
+                        It includes a range of activities such as designing the website layout, developing the website structure, coding the website pages, integrating features and functionalities,
+                        optimizing the website for search engines, and ensuring cross-device compatibility. 
+                        The ultimate goal of web design and development is to create an effective online presence that aligns with the business objectives of the client and delivers an optimal user experience to their customers.</p>
+               </div> 
+
+               <div class="col-lg-4 service-box text-center mt-3">
+                <img src="images/appDesign.png" class='img-fluid'alt="web design">
+                   <h3 class="fw-bold mb-2">Android Application Design & Development</h3>
+                   <p>Application design and development is a comprehensive service that involves creating customized software solutions that meet the specific needs and requirements of clients.
+                     It includes a range of activities such as designing the application user interface, developing the application structure, coding the application functionalities,
+                     integrating with databases and other software systems, and testing and deploying the application.
+                     The ultimate goal of application design and development is to create effective software solutions that improve business processes, enhance productivity,
+                     and provide a seamless user experience for clients and their customers.</p>
+              </div> 
+
+              <div class="col-lg-4 service-box text-center mt-3">
+                <img src="images/desktopDesign.png" class='img-fluid'alt="web design">
+                   <h3 class="fw-bold mb-2">Desktop Application Design & Development</h3>
+                   <p>Desktop design and development is a service that involves creating software applications that are designed to run on desktop computers. 
+                    It includes a range of activities such as designing the user interface, developing the application structure, coding the application functionalities,
+                    integrating with databases and other software systems, and testing and deploying the application. The ultimate goal of desktop design and development is to create efficient
+                    and user-friendly software solutions that help businesses automate processes, manage data, and improve productivity. Desktop applications can be customized to meet the specific needs and requirements of clients,
+                    and can be used offline or online depending on the application's features and functionalities.
+                     By offering desktop design and development services, you can help clients improve their business processes and streamline their operations.</p>
+              </div> 
+            </div>
+        </div>
+    </section>
+
+
+    <!--SERVICE END-->
+
+    <!--PORTFOLIO START-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Portfolio</h3>
+                <p class="text-center fw-bold ms-4 ps-5 sub-title">My Recent Work</p>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-3">
+                <div class="col">
+                    <img src="images/webdesign2.jpg" class="gallery-item image-fluid" alt="portfolio">
+                    <div class="portfolio-box-content">
+                        <h3 class="project-title">Project 1</h3>
+                        <p class="project-category">Web Design</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/webdesign2.jpg" class="gallery-item image-fluid" alt="portfolio">
+                    <div class="portfolio-box-content">
+                        <h3 class="project-title">Project 2</h3>
+                        <p class="project-category">Web Design</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/webdesign2.jpg" class="gallery-item image-fluid" alt="portfolio">
+                    <div class="portfolio-box-content">
+                        <h3 class="project-title">Project 3</h3>
+                        <p class="project-category">Web Design</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+        <!--MODAL-->
+        <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/webdesign2.jpg" class="modal-img img-fluid"alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+    <!--PORTFOLIO END-->
+
+    <!--CONTACT START-->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">CONTACT</h3>
+                <p class="text-center fw-bold ms-2 ps-5 sub-title">Contact Me</p>
+            </div>
+            <div class="row gx-4">
+                <div class="col-lg-6 text-center">
+                    <div class="contact-bg d-flex flex-column justify-content-center rounded-2">
+                        <h5 class="py-3">You can contact me from the dialog box</h5>
+                        <div class="contact-info d-flex flex-column gap-2 text-center">
+                            <a href="tel:+19803106946" class="text-white"><i class="bi bi-telephone-fill me-3"></i>980 310 6946</a>
+                            <a href="mailto:diagnefk@gmail.com" class="text-white"><i class="bi bi-envelope-fill me-3"></i>diagnefk@gmail.com</a>
+                            <a href="https://www.google.com/maps/place/Charlotte,+NC/@35.2033919,-81.1200218,10z/data=!3m1!4b1!4m6!3m5!1s0x88541fc4fc381a81:0x884650e6bf43d164!8m2!3d35.2270869!4d-80.8431267!16zL20vMGZzYjg" class="text-white"><i class="bi bi-geo-alt-fill me-3"></i>Charlotte, NC</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="Name" placeholder="Your name and Surname">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Your email address">
+                          </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Enter Your message"id="floatingTextarea" rows="8" ></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+
+    <!--CONTACT END-->
+        
+    <!--FOOTER START-->
+    <footer class="mt-5 py-5">
+        <div class="container">
+            <div class="footer-logo text-center">
+                <img src="images/logo.png" class="img-fluid">
+            </div>
+            <div class="footer-social d-flex justify-content-center gap-3 mt-3">
+                <a href="https://www.linkedin.com" class="text-white"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.youtube.com" class="text-white"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.twitter.com" class="text-white"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com" class="text-white"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.github.com" class="text-white"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="footer-copyright text-center mt-3 mt-lg-2">
+                <p class="text-center text-white">Copyright © 2023 <a href="#">SambaDev</a> Samba Portfolio. All rights reserved.
+
+            </div>
+        </div>
+    </footer>
+    
+
+    <!--FOOTER END-->
+
 
 
     <!--tYPED JS-->
